@@ -1,0 +1,101 @@
+body{
+  text-align: center;
+  background-color: #f5f5f5;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  width: 1440px
+}
+.power{
+  font-family: 'Poppins', sans-serif;
+}
+
+.paragraph{
+  width: 35%;
+  margin-left: 480px;
+}
+
+.middle-content{
+position: relative;
+width: 1400px;
+height: 800px;
+}
+
+.supervisor{
+position: absolute;
+left: 230px;
+bottom: 300px;
+width: 300px;
+height: 200px;
+text-align: left;
+background-color: hsl(0, 0%, 98%);
+border-top: solid Cyan;
+}
+.psuper{
+  padding: 10px 20px 0 20px;
+}
+.icon-supervisor{
+  position: absolute;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+}
+  .calculator{
+position: absolute;
+background-color: hsl(0, 0%, 98%);
+right: 230px;
+bottom: 300px;
+width: 300px;
+height: 200px;
+text-align: left;
+border-top: solid blue;
+}
+.pcalculator{
+  padding: 10px 20px 0 20px;
+}
+.icon-calculator{
+position: absolute;
+right: 25px;
+width: 50px;
+height: 50px;
+}
+
+  .team-builder{
+    right: 550px;
+    top: 190px;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    background-color: hsl(0, 0%, 98%);
+    position: absolute;
+    border-top: solid red;
+}
+.pteam{
+  padding: 10px 20px 0 20px;
+}
+.icon-team-builder{
+position: absolute;
+right: 25px;
+width: 50px;
+height: 50px;
+
+}
+  .karma{
+    left: 550px;
+    bottom: 190px;
+    background-color: hsl(0, 0%, 98%);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    text-align: left;
+    border-top: solid orange;
+}
+.pkarma{
+  padding: 10px 20px 0 20px;
+}
+.icon-karma{
+  position: absolute;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+}

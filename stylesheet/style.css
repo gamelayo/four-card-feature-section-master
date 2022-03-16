@@ -1,7 +1,4 @@
-html{
-
-}
-
+html {}
 
 body {
   background-color: rgba(250, 250, 250, 1);
@@ -10,7 +7,6 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
-
 }
 
 main {
@@ -21,7 +17,6 @@ main {
   align-items: center;
   justify-content: center;
   margin: auto;
-
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
 }
@@ -32,6 +27,7 @@ h1 {
   align-self: center;
   font-weight: 400;
   margin-bottom: 5px;
+  color: rgba(126, 144, 145, 1);
 }
 
 h2 {
@@ -45,10 +41,11 @@ h2 {
 .heading p {
   font-size: 15px;
   width: 80%;
-  text-align-last: center;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
   margin: 5px;
+  color: rgba(126, 144, 145, 1);
 }
 
 .heading {
@@ -60,12 +57,13 @@ h2 {
 }
 
 .flex-container p {
-  font-size: 15px;
+  font-size: 13px;
   width: 93%;
   margin: 0 10px;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
   align-self: auto;
+  color: rgba(126, 144, 145, 1);
 }
 
 .flex-container h2 {
@@ -77,63 +75,66 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 100%;
-justify-content: space-around;
-  margin: 0;
+  justify-content: space-around;
+  margin-top: 25px;
   height: 44rem;
-
 }
 
 .icon {
   width: 2rem;
   align-self: flex-end;
-  margin: 20px 15px 0 0;
+  margin: 20px 15px 10px 0;
 }
 
 .supervisor {
-  width: 19rem;
+  width: 17rem;
   height: 10rem;
   background-color: white;
   border-top: solid Cyan;
   display: flex;
   flex-direction: column;
   margin: auto;
-  justify-content: space-around;
-  border-radius: 2%;
+  border-radius: 3%;
+  box-shadow: -1px 4px 16px 2px rgba(105, 99, 99, 0.4);
 }
 
 .team-builder {
-  width: 19rem;
+  width: 17rem;
   height: 10rem;
   background-color: white;
   border-top: solid red;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  border-radius: 3%;
   margin: auto;
+  box-shadow: -1px 4px 16px 2px rgba(105, 99, 99, 0.4);
 }
 
 .karma {
-  width: 19rem;
+  width: 17rem;
   height: 10rem;
   background-color: white;
   border-top: solid Orange;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  border-radius: 3%;
   margin: auto;
+  box-shadow: -1px 4px 16px 2px rgba(105, 99, 99, 0.4);
 }
 
 .calculator {
-  width: 19rem;
+  width: 17rem;
   height: 10rem;
   background-color: white;
   border-top: solid blue;
   display: flex;
   flex-direction: column;
   margin: auto;
-  justify-content: space-around;
+  border-radius: 3%;
+  box-shadow: -1px 4px 16px 2px rgba(105, 99, 99, 0.4);
 }
-.team-karma{
+
+.team-karma {
   display: flex;
   flex-direction: column;
   align-content: space-around;
@@ -141,30 +142,32 @@ justify-content: space-around;
 }
 
 .supervisor-container,
-.calculator-container{
+.calculator-container {
   margin: 0;
 }
 
-
 @media (min-width:40rem) {
-  body{
+  body {
     width: 60rem;
     height: 100vh;
   }
 
-  .flex-container{
+  .flex-container {
     display: flex;
     flex-direction: row;
     height: 24rem;
-    width: 59rem;
+    width: 55rem;
   }
 
   .supervisor-container,
-  .calculator-container{
+  .calculator-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
   }
 
+  .heading p {
+    text-align-last: center;
+    width: 60%;
+  }
 }
